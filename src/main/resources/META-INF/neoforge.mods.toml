@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+issueTrackerURL="https://example.invalid"
+
+[[mods]]
+modId="torcherino_xycraft"
+version="1.0.0"
+displayName="Torcherino x XyCraft: Machines"
+authors="local patch"
+description='''Compatibility patch: every XyCraft: Machines block inside a Torcherino (加速火把) field now receives real machine ticks, scaled by the torch speed setting and field size.'''
+
+[[dependencies.torcherino_xycraft]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.torcherino_xycraft]]
+modId="minecraft"
+type="required"
+versionRange="[1.21,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.torcherino_xycraft]]
+modId="xycraft_core"
+type="required"
+versionRange="*"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.torcherino_xycraft]]
+modId="torcherino"
+type="required"
+versionRange="*"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="torcherino_xycraft.mixins.json"

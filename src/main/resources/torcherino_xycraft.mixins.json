@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.xyct.torcherinox.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TorcherinoBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
