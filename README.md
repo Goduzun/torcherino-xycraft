@@ -12,6 +12,13 @@
 
 ---
 
+## Download
+
+| File | Link |
+|---|---|
+| `torcherino_xycraft-1.0.0.jar` | [Releases → v1.0.0](https://github.com/Goduzun/torcherino-xycraft/releases/download/v1.0.0/torcherino_xycraft-1.0.0.jar) |
+| All releases | [github.com/Goduzun/torcherino-xycraft/releases](https://github.com/Goduzun/torcherino-xycraft/releases) |
+
 ## 中文简介
 
 加速火把加速原版机器的两条通道——`randomTick` 和 `BlockEntityTicker`——XyCraft 的机器两条都不走，
